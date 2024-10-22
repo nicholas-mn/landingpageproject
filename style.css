@@ -10,6 +10,7 @@ div.content {
     border: 0;
 }
 
+/* NAV START */
 div.top {
     margin: auto;
     padding: 10px;
@@ -31,3 +32,50 @@ nav a {
     color: #E5E7EB;
     text-decoration-line: none;
 }
+
+/* NAV END */
+
+/* HERO START */
+
+div.hero {
+    margin: 4em 0em;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    color: #F9FAF8;
+    flex-wrap: wrap; /* Allows items to wrap */
+}
+
+
+
+div.hero-left {
+    flex: 1;
+    flex-basis: 400px;
+}
+
+div.hero p {
+    color: #E5E7EB;
+}
+
+div.hero button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: large;
+    padding: 3px 1em;
+}
+
+div.hero-right {
+    flex: 1;
+    flex-basis: 400px;
+}
+div.hero-right img{
+    width: 100%; /* Makes the image responsive */
+    max-width: 100%; /* Prevents overflow */
+}
+
+
+
+/* HERO END */
