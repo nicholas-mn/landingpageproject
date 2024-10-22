@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-/* Dark top background, dont touch */
+/* Dark background around content, dont touch */
 div.content {
     background-color: #1f2937;
     padding: 8px;
@@ -79,3 +79,45 @@ div.hero-right img{
 
 
 /* HERO END */
+
+/* RANDOM INFORMATION START */
+
+/* Light background around content, dont touch */
+div.random-info-wrapper {
+    background-color: #F9FAF8;
+    border: 0;
+}
+
+div.random-info {
+    margin: auto;
+    padding: 10px 10px 50px 10px;
+    max-width: 850px;
+
+}
+
+div.random-info h1 {
+    text-align: center;
+}
+
+div.boxes {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap */
+    justify-content: center;
+    gap: 2em;
+    text-align: center;
+
+}
+
+div.blue {
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.box p {
+    max-width: 120px;
+    font-size: small;
+}
+
+/* RANDOM INFORMATION END */
