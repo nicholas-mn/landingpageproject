@@ -121,3 +121,39 @@ div.blue {
 }
 
 /* RANDOM INFORMATION END */
+
+/* QUOTE SECTION START */
+
+div.quote-wrapper {
+    background-color: #E5E7EB;
+    border: 0;
+    padding: 5em 0em;
+    display: flex;
+}
+
+.quote p {
+    margin: 0px;
+}
+
+.quote {
+    flex: 1;
+    flex-basis: 100px;
+}
+
+.quote-filler {
+    flex: 1;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+p.quote-author {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* QUOTE SECTION END */
